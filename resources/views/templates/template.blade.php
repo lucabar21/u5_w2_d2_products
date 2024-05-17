@@ -38,10 +38,12 @@
         </div>
       </nav>
 
-      <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-@yield('main-content')
-@yield('secondary-content')
+      <div class="container-fluid my-5">
+        <div class="row justify-content-center align-items-center gap-3">
+<div class="col-8">
+  @yield('main-content')
+  @yield('secondary-content')
+</div>
         </div>
       </div>
 
